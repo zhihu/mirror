@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+  ~ Mirror - Yet another Sketch Mirror App for Android.
+  ~ Copyright (C) 2016 Zhihu Inc.
+  ~
+  ~ This program is free software: you can redistribute it and/or modify
+  ~ it under the terms of the GNU General Public License as published by
+  ~ the Free Software Foundation, either version 3 of the License, or
+  ~ (at your option) any later version.
+  ~
+  ~ This program is distributed in the hope that it will be useful,
+  ~ but WITHOUT ANY WARRANTY; without even the implied warranty of
+  ~ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  ~ GNU General Public License for more details.
+  ~
+  ~ You should have received a copy of the GNU General Public License
+  ~ along with this program.  If not, see <http://www.gnu.org/licenses/>.
+  -->
+
+<com.zhihu.android.app.mirror.weiget.ConnectStatusLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/connect_status_height"
+        android:paddingStart="6dp"
+        android:paddingEnd="6dp"
+        android:background="@color/translucent">
+
+    <com.zhihu.android.app.mirror.weiget.PointView
+            android:id="@+id/point"
+            android:layout_width="@dimen/connect_status_height"
+            android:layout_height="match_parent"
+            app:pvAlpha="64"
+            app:pvRadius="4dp"
+            app:pvDuration="2000">
+    </com.zhihu.android.app.mirror.weiget.PointView>
+
+    <android.support.v7.widget.AppCompatTextView
+            android:id="@+id/message"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textColor="@color/white"
+            android:textSize="14sp"
+            android:gravity="center|start"
+            android:maxLines="1"
+            android:ellipsize="end">
+    </android.support.v7.widget.AppCompatTextView>
+
+</com.zhihu.android.app.mirror.weiget.ConnectStatusLayout>
