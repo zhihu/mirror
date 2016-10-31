@@ -11,7 +11,7 @@ Support Android Lollipop+.
 
 ![example.png](./example.png "example.png")
 
-## Attendtion 
+## Attention 
 
  - Sometimes the WIFI connection is unstable, better to use it at good network. USB supports comming soon.
 
