@@ -5,6 +5,8 @@ Yet another Sketch Mirror App for Android.
 
 Support Android Lollipop+.
 
+[Download](https://github.com/zhihu/mirror/releases/download/1.0.0/Mirror.1.0.0.apk "Mirror.1.0.0.apk").
+
 ## Usage
 
 ![example.png](./example.png "example.png")
