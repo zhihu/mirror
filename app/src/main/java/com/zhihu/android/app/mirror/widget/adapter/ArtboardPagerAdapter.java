@@ -16,7 +16,7 @@
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
 
-package com.zhihu.android.app.mirror.weiget.adapter;
+package com.zhihu.android.app.mirror.widget.adapter;
 
 import android.support.annotation.Nullable;
 import android.support.v4.view.PagerAdapter;
@@ -29,8 +29,8 @@ import java.util.List;
 
 import com.zhihu.android.app.mirror.R;
 import com.zhihu.android.app.mirror.model.Artboard;
-import com.zhihu.android.app.mirror.weiget.ArtboardLayout;
-import com.zhihu.android.app.mirror.weiget.ArtboardView;
+import com.zhihu.android.app.mirror.widget.ArtboardLayout;
+import com.zhihu.android.app.mirror.widget.ArtboardView;
 
 public class ArtboardPagerAdapter extends PagerAdapter {
     private List<Artboard> mList;

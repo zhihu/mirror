@@ -16,7 +16,7 @@
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
 
-package com.zhihu.android.app.mirror.weiget.holder;
+package com.zhihu.android.app.mirror.widget.holder;
 
 import android.support.v7.widget.RecyclerView;
 import android.view.View;
@@ -25,7 +25,7 @@ import com.zhihu.android.app.mirror.R;
 import com.zhihu.android.app.mirror.event.MirrorSelectedEvent;
 import com.zhihu.android.app.mirror.model.MirrorInfo;
 import com.zhihu.android.app.mirror.util.RxBus;
-import com.zhihu.android.app.mirror.weiget.MirrorNameView;
+import com.zhihu.android.app.mirror.widget.MirrorNameView;
 
 public class MirrorInfoHolder extends RecyclerView.ViewHolder implements View.OnClickListener {
     private MirrorNameView mNameView;

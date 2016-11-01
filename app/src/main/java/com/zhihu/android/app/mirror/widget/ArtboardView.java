@@ -16,7 +16,7 @@
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
 
-package com.zhihu.android.app.mirror.weiget;
+package com.zhihu.android.app.mirror.widget;
 
 import android.animation.ObjectAnimator;
 import android.animation.ValueAnimator;

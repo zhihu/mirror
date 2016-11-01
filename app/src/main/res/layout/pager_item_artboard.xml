@@ -18,16 +18,16 @@
   ~ along with this program.  If not, see <http://www.gnu.org/licenses/>.
   -->
 
-<com.zhihu.android.app.mirror.weiget.ArtboardLayout
+<com.zhihu.android.app.mirror.widget.ArtboardLayout
         xmlns:android="http://schemas.android.com/apk/res/android"
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
-    <com.zhihu.android.app.mirror.weiget.ArtboardView
+    <com.zhihu.android.app.mirror.widget.ArtboardView
             android:id="@+id/artboard"
             android:layout_width="match_parent"
             android:layout_height="match_parent">
-    </com.zhihu.android.app.mirror.weiget.ArtboardView>
+    </com.zhihu.android.app.mirror.widget.ArtboardView>
 
     <ProgressBar android:id="@+id/progress"
                  android:layout_width="match_parent"
@@ -41,4 +41,4 @@
                  style="@style/Widget.AppCompat.ProgressBar.Horizontal">
     </ProgressBar>
 
-</com.zhihu.android.app.mirror.weiget.ArtboardLayout>
+</com.zhihu.android.app.mirror.widget.ArtboardLayout>

@@ -22,7 +22,7 @@
              android:layout_width="wrap_content"
              android:layout_height="wrap_content">
 
-    <com.zhihu.android.app.mirror.weiget.MirrorNameView
+    <com.zhihu.android.app.mirror.widget.MirrorNameView
             android:id="@+id/name"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -35,6 +35,6 @@
             android:gravity="center|start"
             android:maxLines="1"
             android:ellipsize="none">
-    </com.zhihu.android.app.mirror.weiget.MirrorNameView>
+    </com.zhihu.android.app.mirror.widget.MirrorNameView>
 
 </FrameLayout>

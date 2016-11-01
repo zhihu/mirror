@@ -16,7 +16,7 @@
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
 
-package com.zhihu.android.app.mirror.weiget.holder;
+package com.zhihu.android.app.mirror.widget.holder;
 
 import android.net.Uri;
 import android.support.v7.widget.RecyclerView;
@@ -33,7 +33,7 @@ import com.zhihu.android.app.mirror.event.ArtboardSelectedEvent;
 import com.zhihu.android.app.mirror.model.Artboard;
 import com.zhihu.android.app.mirror.util.MirrorUtils;
 import com.zhihu.android.app.mirror.util.RxBus;
-import com.zhihu.android.app.mirror.weiget.DownsamplingView;
+import com.zhihu.android.app.mirror.widget.DownsamplingView;
 
 public class DownsamplingHolder extends RecyclerView.ViewHolder implements View.OnClickListener {
     private DownsamplingView mDownsamplingView;

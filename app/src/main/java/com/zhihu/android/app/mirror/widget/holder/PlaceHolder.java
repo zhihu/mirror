@@ -16,23 +16,21 @@
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
 
-package com.zhihu.android.app.mirror.weiget.holder;
+package com.zhihu.android.app.mirror.widget.holder;
 
 import android.support.v7.widget.RecyclerView;
 import android.view.View;
 
-import com.zhihu.android.app.mirror.model.Artboard;
-import com.zhihu.android.app.mirror.weiget.ArtboardLayout;
+public class PlaceHolder extends RecyclerView.ViewHolder {
+    private View mView;
 
-public class ArtboardHolder extends RecyclerView.ViewHolder {
-    private ArtboardLayout mArtboardLayout;
-
-    public ArtboardHolder(View view) {
+    public PlaceHolder(View view) {
         super(view);
-        mArtboardLayout = (ArtboardLayout) view;
+        mView = view;
     }
 
-    public void bind(Artboard artboard) {
-        mArtboardLayout.setArtboard(artboard);
+    public void bind(int height) {
+        mView.getLayoutParams().height = height;
+        mView.requestLayout();
     }
 }

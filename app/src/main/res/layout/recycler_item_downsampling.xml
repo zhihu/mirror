@@ -22,10 +22,10 @@
              android:layout_width="wrap_content"
              android:layout_height="wrap_content">
 
-    <com.zhihu.android.app.mirror.weiget.DownsamplingView
+    <com.zhihu.android.app.mirror.widget.DownsamplingView
             android:id="@+id/downsampling"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content">
-    </com.zhihu.android.app.mirror.weiget.DownsamplingView>
+    </com.zhihu.android.app.mirror.widget.DownsamplingView>
 
 </FrameLayout>

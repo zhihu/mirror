@@ -16,7 +16,7 @@
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
 
-package com.zhihu.android.app.mirror.weiget.adapter;
+package com.zhihu.android.app.mirror.widget.adapter;
 
 import android.content.Context;
 import android.support.v7.widget.RecyclerView;
@@ -29,8 +29,8 @@ import java.util.List;
 import com.zhihu.android.app.mirror.R;
 import com.zhihu.android.app.mirror.model.Artboard;
 import com.zhihu.android.app.mirror.util.DisplayUtils;
-import com.zhihu.android.app.mirror.weiget.holder.DownsamplingHolder;
-import com.zhihu.android.app.mirror.weiget.holder.PlaceHolder;
+import com.zhihu.android.app.mirror.widget.holder.DownsamplingHolder;
+import com.zhihu.android.app.mirror.widget.holder.PlaceHolder;
 
 public class ArtboardListAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder> {
     private static final int VIEW_TYPE_PLACE_HOLDER = 0x00;
