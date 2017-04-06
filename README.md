@@ -34,6 +34,11 @@ Support Android Lollipop+.
  - [square/okhttp](https://github.com/square/okhttp "square/okhttp"), Apache License Version 2.0
 
  - [davemorrissey/subsampling-scale-image-view](https://github.com/davemorrissey/subsampling-scale-image-view "davemorrissey/subsampling-scale-image-view"), Apache License Version 2.0
+ 
+## Contributing
+ - To contribute with a small fix, simply create a pull request.
+ - Better to open an issue to discuss with the team and the community if you're intended to work on something BIG.
+ - Please follow [Code Style for Contributors](https://source.android.com/source/code-style) of AOSP.
 
 ## License
 
