@@ -1,4 +1,4 @@
-Mirror
+Mirror(An Amazing App)
 ===
 
 Yet another Sketch Mirror App for Android.
